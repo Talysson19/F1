@@ -1,0 +1,321 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-backgroud: #030207;
+}
+
+body{
+    color: #ffffff;
+    background-color: var(--color-backgroud);
+}
+/* AQUI DEFINIMOS SECTION MENU */
+
+.menu__img{
+    margin-top: 1.25rem;
+    margin-bottom: .5;
+    margin-left: 2rem;
+    float: left;
+    height: 4rem;
+    width: 6rem;
+}
+
+.menu__img2{
+    margin-top: 1.25rem;
+    margin-bottom: .5;
+    margin-right: 2rem;
+    float: right;
+    height: 5rem;
+    width: 7rem;
+}
+
+.menu{
+    background-color: var(--color-backgroud);
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+.click > .sele{
+    margin-right: 8rem ;
+}
+
+
+.sele {
+    padding: 0.75rem 1.25rem;
+    color: #ffffff;
+    background-color: #4b5563; /* cinza médio escuro */
+    border-radius: 0.5rem; /* bordas levemente arredondadas */
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.875rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sele:hover {
+    background-color: #374151; /* cinza mais escuro no hover */
+    transform: translateY(-2px);
+}
+
+.sele:active {
+    transform: translateY(0);
+    background-color: #1f2937; /* cinza bem escuro no clique */
+}
+
+
+/* AQUI DEFINIMOS SECTION HISTORIA */
+
+.historia{
+    background: linear-gradient(rgba(0,0,0,0.1) , var(--color-backgroud));
+    position: relative;
+    min-height: 100vh;
+}
+
+.historia__background{
+    object-fit: cover;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -15;
+}
+
+.historia__foreground{
+    text-align: center;
+    padding-top: 40vh;
+}
+
+.historia__title{
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+.historia__text{
+    font-size: 1.5rem;
+    padding-left: 200px;
+    padding-right: 200px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+/*AQUI DEFINIMOS SECTION APRESENTAÇÃO*/
+
+
+.apresentacao{
+    background-color: #aa1010;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 10rem;
+    padding-bottom:10rem ;
+    text-align: center;
+    border-radius: 9rem;
+}
+
+.apresentacao__title{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.apresentacao__text{
+    padding-top:30px;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    font-size: 1.5rem;
+}
+
+/* AQUI DEFINIMOS SECTION HISTORY*/
+
+.history{
+    padding: 0 8rem;
+    text-align: center;
+}
+
+.history__title{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 9rem;
+}
+
+.history__text{
+    font-size: 1.25rem;
+    line-height: 3;
+    margin-top: 4rem;
+}
+
+.history__img{
+    float: left;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    height: 25rem;
+    width: 20rem;
+}
+
+/* AQUI DEFIMIMOS SECTION CARACTERISTICA */
+
+.caracteristica{
+    padding: 0 8rem;
+    text-align: center;
+}
+
+.caracteristica__title{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 15rem;
+}
+
+.caracteristica__text{
+    font-size: 1.25rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    line-height: 3;
+}
+
+.caracteristica__img{
+    float: right;
+    margin-left:4rem ;
+    margin-bottom: 4rem;
+    height: 25rem;
+    width: 20rem;
+}
+
+/* AQUI DEFIMIMOS SECTION CIRCUITOS */
+
+.circuitos{
+    padding: 0 8rem;
+    text-align: center;
+}
+
+.circuitos__title{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 15rem;
+}
+
+.circuitos__text{
+    font-size: 1.25rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    line-height: 3;
+}
+
+.monaco__img1{
+    float: right;
+    margin-left:4rem ;
+    margin-bottom: 4rem;
+    height: 25rem;
+    width: 20rem;
+}
+
+.spa__img2{
+    float: left;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    height: 25rem;
+    width: 20rem;
+}
+
+/* AQUI DEFIMIMOS SECTION PILOTOS */
+
+.pilotos{
+    padding: 0 8rem;
+    text-align: center;
+}
+
+.pilotos__title{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 10rem;
+}
+
+.Ayrton__img1{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 2rem;
+    height: 20rem;
+    width: 15rem;
+}
+
+.Michael__img2{
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    margin-right: 2rem;
+    height: 20rem;
+    width: 15rem;
+}
+
+.Lewis__img3{
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    margin-right: 2rem;
+    height: 20rem;
+    width: 15rem;
+}
+
+.pilotos__text{
+    font-size: 1.25rem;
+    margin-top: 4rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    line-height: 3;
+    margin-bottom: 4rem;
+}
+
+/* AQUI DEFIMIMOS SECTION TECNOLOGIA */
+
+.tecnologia{
+    padding: 0 8rem;
+    text-align: center;
+}
+
+.tecnologia__title{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 7rem;
+}
+
+.tecnologia__img{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    height: 25rem;
+    width: 20rem;
+}
+
+.tecnologia__text{
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    line-height: 3;
+    margin-bottom: 4rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 0.875rem;
+    color: #fcfcfd;
+    background-color: #000000;
+}
+
+.footer a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #1e40af;
+}
